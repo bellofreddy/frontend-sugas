@@ -49,8 +49,15 @@ const isOpen = ref(false)
       display: flex;
       align-items: center;
       cursor: pointer;
+      background:white
     }
-
+     &-label:hover{
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      background:green
+    }
+ 
     .nav-group-children-wrapper {
       display: grid;
       grid-template-rows: 0fr;
@@ -67,5 +74,6 @@ const isOpen = ref(false)
       }
     }
   }
+
 }
 </style>

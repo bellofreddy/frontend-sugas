@@ -23,7 +23,10 @@ const props = defineProps({
         class="nav-item-icon"
       />
       <!-- 👉 Title -->
-      <span class="nav-item-title">
+      <span
+        class="nav-item-title"
+        style="color: black"
+      >
         {{ item.title }}
       </span>
       <span
@@ -42,6 +45,10 @@ const props = defineProps({
     display: flex;
     align-items: center;
     cursor: pointer;
+  }
+  .nav-link a:hover {
+    background-color: white;
+    color: rgb(82, 249, 4);
   }
 }
 </style>
